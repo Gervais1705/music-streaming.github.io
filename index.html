@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JavaScript Music Player</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#music-player">Music Player</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <section id="home">
+            <h1>Welcome to Our Music Player</h1>
+            <p>Enjoy your favorite tunes on our interactive music player.</p>
+            
+        </section>
+        <section id="music-player" class="music-player">
+            <audio id="audio-player" controls></audio>
+            <div class="controls">
+                <button id="play-button">Play</button>
+                <button id="pause-button">Pause</button>
+            </div>
+            <div class="progress">
+                <div id="progress-bar"></div>
+            </div>
+            <div class="track-info">
+                <h2 id="track-title">Song Title</h2>
+                <p id="artist">Artist Name</p>
+            </div>
+            <input type="file" id="file-input">
+        </section>
+       
+        <section id="contact">
+            <h2>Contact</h2>
+        <div class="title-divider"></div>
+			<p>Thank you for exploring my online music-player. Feel free to contact us</p>
+				
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<div class="contact-form">
+							<form action="#">
+								<div class="row">
+									<div class="col-lg-6">
+										<input type="text" name="name" placeholder="Your Name">
+									</div>
+									<div class="col-lg-6">
+										<input type="email" name="email" placeholder="Your Email">
+									</div>
+									<div class="col-12">
+										<input type="text" name="sub" placeholder="Your Subject">
+									</div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Your Message"></textarea>
+									</div>
+									<div class="col-12">
+										<button class="button-1" type="submit">Submit <span></span></button>
+									</div>
+								</div>
+							</form>
+                         </div>
+                         </div>
+                </div>
+        </section>
+    </div>
+    <div class="emojis"></div>
+    <footer>
+        <p>@ Copyright Gervais17  | All Rights Reserved</p>
+    </footer>
+    <script src="../music/script.js"></script>
+</body>
+</html>
